@@ -88,6 +88,9 @@ nu | core | give | transfer
 dura | core | help | assistance
 fen | core | come | arrival
 dro | core | go | departure
+bara | core | barrier, obstacle | blockage
+sola | core | solution, answer | resolution
+trai | core | try, attempt | effort
 
 # === Computing & web ===
 veka | computing | website, site | web presence
