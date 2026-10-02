@@ -1,0 +1,349 @@
+# Zorlun Lexicon — source of truth
+# Format: word | group | English | note
+#
+# Groups:
+#   pronoun    — personal pronouns
+#   pointer    — this/that/what
+#   grammar    — suffixes, particles, links
+#   number     — numerals
+#   certainty  — confidence markers
+#   core       — general vocabulary
+#   computing  — computing & web
+#   security   — security & assessment
+#   recon      — reconnaissance & discovery
+#   auth       — authentication, identity, access
+#   vuln       — vulnerability concepts
+#   action     — security testing verbs
+#   network    — network security
+#   malware    — malware & defense
+#   data       — data & privacy
+#   report     — reporting & remediation
+#   command    — useful command words
+
+# === Pronouns ===
+om | pronoun | I, me | first person
+id | pronoun | you | second person
+ur | pronoun | he, she, it | third person
+omzu | pronoun | we, us | first person plural
+idzu | pronoun | you all | second person plural
+urzu | pronoun | they, them | third person plural
+
+# === Pointers ===
+ni | pointer | this | near
+na | pointer | that | far
+kel | pointer | what, which | question
+
+# === Grammar particles ===
+vai | grammar | not | negation
+mo | grammar | and | conjunction
+wu | grammar | or | disjunction
+ba | grammar | but | contrast
+ne | grammar | (yes/no question) | sentence-final
+to | grammar | yes | affirmative
+vo | grammar | no | negative
+
+# === Certainty markers ===
+tol | certainty | I'm sure | high confidence
+mip | certainty | probably | medium confidence
+ket | certainty | guessing | low confidence
+
+# === Numbers ===
+zi | number | 0 | zero
+sa | number | 1 | one
+re | number | 2 | two
+ki | number | 3 | three
+po | number | 4 | four
+lu | number | 5 | five
+dem | number | 10 | ten
+
+# === Core vocabulary ===
+tek | core | person | human being
+lun | core | language | tongue
+mira | core | word | speech unit
+grik | core | AI, machine | artificial intelligence
+nel | core | friend | companion
+zel | core | mind, thought | cognition
+vom | core | voice | sound
+sel | core | light | brightness
+gun | core | dark | darkness
+es | core | water | liquid
+dak | core | fire | flame
+avo | core | world | universe
+tan | core | time | temporal
+pon | core | place | location
+ka | core | thing | object
+sur | core | name | identity
+zor | core | origin, seed | source
+
+# === Core verbs ===
+va | core | be, exist | existence
+lora | core | speak | verbal communication
+zen | core | know | knowledge
+kepa | core | understand | comprehension
+mun | core | want | desire
+tak | core | do, make, work | action
+ole | core | see | perception
+si | core | learn | education
+nu | core | give | transfer
+dura | core | help | assistance
+fen | core | come | arrival
+dro | core | go | departure
+
+# === Computing & web ===
+veka | computing | website, site | web presence
+navi | computing | web page | single page
+ruma | computing | web application | web app
+savi | computing | application, app | software
+kori | computing | computer, device | hardware
+dren | computing | server | serves requests
+kli | computing | client | requests service
+nema | computing | network | connected nodes
+wiro | computing | internet | global network
+doma | computing | domain | web domain
+hova | computing | host | hosting
+ipra | computing | IP address | network address
+pota | computing | port | network port
+rute | computing | route, path | URL path
+noda | computing | node | network node
+koda | computing | code | programming
+fira | computing | file | stored data
+daba | computing | database | data store
+apik | computing | API | interface
+brow | computing | browser | web client
+sesh | computing | session | connection state
+kuki | computing | cookie | browser cookie
+heda | computing | header | HTTP header
+reka | computing | request | HTTP request
+resa | computing | response | HTTP response
+para | computing | parameter | input value
+pelo | computing | payload, data body | transmitted data
+loga | computing | log | event record
+repo | computing | repository | code storage
+sorsa | computing | source code | raw code
+kred | computing | credential | auth secret
+
+# === Security & assessment ===
+kesh | security | security, protection | defense
+pran | security | penetration test, pentest | authorized attack simulation
+rav | security | test, check | verification
+skan | security | scan | automated check
+auda | security | security audit | formal review
+ases | security | assessment | evaluation
+sopa | security | scope | boundaries
+auta | security | authorization, permission | access right
+rula | security | rule, policy | governance
+meto | security | method | approach
+tula | security | tool | instrument
+laba | security | security lab, test environment | safe testing
+sanda | security | sandbox | isolated env
+targ | security | target | objective
+aset | security | asset | valuable resource
+surf | security | attack surface | exposure area
+risk | security | risk | potential harm
+thra | security | threat | danger source
+vuln | security | vulnerability | weakness
+fla | security | flaw, weakness | defect
+seva | security | severity | seriousness
+impa | security | impact | consequence
+lika | security | likelihood | probability
+fiks | security | fix, remediation | correction
+pach | security | patch | update fix
+mita | security | mitigation | risk reduction
+harda | security | hardening | strengthening
+vali | security | validation, verification | confirmation
+
+# === Reconnaissance & discovery ===
+reko | recon | reconnaissance | info gathering
+enum | recon | enumeration | systematic listing
+disa | recon | discovery | finding things
+finga | recon | fingerprinting | tech identification
+mapi | recon | mapping | structure analysis
+suba | recon | subdomain | sub-domain
+serv | recon | service | running service
+vers | recon | version | release number
+bana | recon | banner | service banner
+dire | recon | directory | folder/path
+enda | recon | endpoint | API endpoint
+rota | recon | route, URL route | web route
+teka | recon | technology, stack | tech stack
+meta | recon | metadata | data about data
+info | recon | information | intel
+pubi | recon | public, exposed | visible
+hidi | recon | hidden | concealed
+lisa | recon | list | enumerated set
+fuzo | recon | fuzz, fuzzing | random input test
+worda | recon | wordlist | dictionary file
+
+# === Authentication, identity & access ===
+auth | auth | authentication | identity proof
+iden | auth | identity | who you are
+user | auth | user, account | person/account
+admi | auth | administrator | admin role
+role | auth | role | access role
+perm | auth | permission | allowed action
+aces | auth | access | entry right
+login | auth | log in, sign in | start session
+logout | auth | log out, sign out | end session
+pasu | auth | password | secret phrase
+toka | auth | token | auth token
+keya | auth | key | crypto key
+sekr | auth | secret | hidden value
+mfa | auth | multi-factor authentication | 2FA+
+sso | auth | single sign-on | unified login
+priv | auth | privilege | elevated access
+eska | auth | privilege escalation | gaining access
+bypa | auth | bypass | circumvention
+brut | auth | brute-force attempt | password guessing
+lock | auth | lockout | account lock
+hash | auth | password hash, hash value | one-way digest
+sala | auth | salt | hash randomizer
+cert | auth | certificate | TLS cert
+
+# === Common vulnerability concepts ===
+injek | vuln | injection | code injection
+sqli | vuln | SQL injection | database injection
+xesa | vuln | cross-site scripting, XSS | script injection
+csra | vuln | cross-site request forgery, CSRF | forged request
+ssra | vuln | server-side request forgery, SSRF | server-side fetch abuse
+idor | vuln | insecure direct object reference, IDOR | object ref flaw
+rcea | vuln | remote code execution, RCE | code exec
+lfi | vuln | local file inclusion | local file read
+rfi | vuln | remote file inclusion | remote file load
+trava | vuln | path traversal | directory escape
+uploa | vuln | unsafe file upload | bad upload
+deser | vuln | unsafe deserialization | object injection
+race | vuln | race condition | timing flaw
+misco | vuln | misconfiguration | bad config
+expo | vuln | information exposure | info leak
+leak | vuln | data leak | data loss
+secrx | vuln | exposed secret | leaked secret
+authx | vuln | broken authentication | auth failure
+acesx | vuln | broken access control | access failure
+cryptx | vuln | cryptographic weakness | crypto flaw
+logic | vuln | business-logic flaw | logic bug
+dos | vuln | denial of service | availability attack
+
+# === Security actions & testing verbs ===
+proba | action | probe | test a target
+send | action | send, transmit | outbound
+recv | action | receive | inbound
+capt | action | capture | record traffic
+insp | action | inspect | examine closely
+anal | action | analyze | study
+comp | action | compare | diff
+find | action | find, discover | locate
+veri | action | verify | confirm
+repro | action | reproduce | replicate
+trig | action | trigger | cause to fire
+explo | action | exploit, test exploitability | test vuln
+bypas | action | bypass, test bypass | test circumvention
+inter | action | intercept | MITM capture
+modi | action | modify | change
+repla | action | replay | re-send
+fuzz | action | fuzz, test varied inputs | random test
+crak | action | crack, recover in authorized testing | password recovery
+encr | action | encrypt | protect data
+decr | action | decrypt | reveal data
+hasa | action | hash | one-way transform
+sign | action | sign | crypto signature
+blok | action | block | prevent
+allo | action | allow | permit
+deny | action | deny | refuse
+isol | action | isolate | contain
+
+# === Network security ===
+pack | network | packet | data unit
+prot | network | protocol | comm standard
+tcp | network | TCP | reliable transport
+udp | network | UDP | fast transport
+http | network | HTTP | web protocol
+tls | network | TLS | encryption layer
+dns | network | DNS | name resolution
+vpn | network | VPN | encrypted tunnel
+prox | network | proxy | intermediary
+fire | network | firewall | traffic filter
+gate | network | gateway | network entry
+subn | network | subnet | network segment
+lan | network | local network, LAN | local area
+wan | network | wide-area network, WAN | wide area
+traf | network | traffic | data flow
+snif | network | traffic sniffing, capture | packet capture
+spoof | network | spoofing | identity fake
+mitm | network | man-in-the-middle concept | interception
+tunn | network | tunnel | encrypted channel
+filtr | network | filter | traffic rule
+
+# === Malware & defense ===
+malw | malware | malware | malicious software
+viru | malware | virus | self-replicating malware
+worm | malware | worm | network-spreading malware
+troj | malware | trojan | disguised malware
+rans | malware | ransomware | encryption extortion
+phish | malware | phishing | social engineering
+spam | malware | spam | unwanted messages
+bot | malware | bot | automated agent
+botn | malware | botnet | bot network
+back | malware | backdoor | hidden access
+pers | malware | persistence | staying resident
+ioc | malware | indicator of compromise | detection signal
+aler | malware | alert | notification
+inci | malware | incident | security event
+dete | malware | detect | identify threat
+resp | malware | respond | take action
+cont | malware | contain | limit spread
+erad | malware | eradicate, remove threat | eliminate
+reco | malware | recover, restore | return to normal
+foren | malware | forensics | investigation
+
+# === Data & privacy ===
+data | data | data | information
+piri | data | private | confidential
+puba | data | public | open
+sens | data | sensitive | requires protection
+pii | data | personal identifying information | identity data
+secd | data | secret data | classified
+stor | data | storage | data store
+buck | data | bucket, object storage | cloud storage
+backu | data | backup | copy for recovery
+resto | data | restore | recover from backup
+permdata | data | data permission | data access rule
+exfil | data | data exfiltration concept | data theft
+redac | data | redact | remove sensitive info
+
+# === Reporting & remediation ===
+repoa | report | report | formal document
+findi | report | finding | discovered issue
+evidx | report | evidence, proof | supporting data
+step | report | step | procedure item
+reproa | report | reproduction steps | how to reproduce
+desc | report | description | explanation
+recof | report | recommendation | suggested action
+remed | report | remediation | fix process
+owner | report | owner, responsible party | assignee
+dead | report | deadline | due date
+stat | report | status | current state
+open | report | open, unresolved | pending
+clos | report | closed, resolved | done
+retes | report | retest | verify fix
+pass | report | pass | success
+fail | report | fail | failure
+note | report | note | annotation
+summ | report | summary | overview
+
+# === Command words ===
+bota | command | both | two things
+alla | command | all, every | everything
+soma | command | some | partial
+ona | command | one, single | singular
+firs | command | first | ordinal 1
+nex | command | next | following
+las | command | last | final
+aga | command | again | repeat
+stop | command | stop | halt
+star | command | start, begin | initiate
+conti | command | continue | proceed
+only | command | only | exclusive
+safe | command | safe | secure state
+dang | command | dangerous | risky state
+legal | command | authorized, legal | permitted
+illeg | command | unauthorized, illegal | forbidden
